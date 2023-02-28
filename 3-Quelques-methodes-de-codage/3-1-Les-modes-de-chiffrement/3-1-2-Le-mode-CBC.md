@@ -14,13 +14,13 @@ $$ ... $$
 
 On transmet le message $c_0 || c_1 || ... || c_n$.
 
-Le bloc initial $c_0$ peut ˆetre choisi de l’une des manières suivantes:
+Le bloc initial $c_0$ peut être choisi de l’une des manières suivantes:
 1. On génère $c_0$ aléatoirement et on le transmet en clair avec le message
 2. On génère $c_0$ aléatoirement et on le transmet de manière confidentielle
 3. On utilise un $c_0$ fixe qui fait partie des constantes du cryptosystème
 4. On utilise un $c_0$ fixe qui fait partie de la clé sécrète du cryptosystème
 
-On recommande en général d’utiliser l’une des deux première solutions. Les deux dernières font que si le premier bloc est identique dans deux messages différent il sera codé de la mˆeme manière ce qui nuit `a la sécurité du code.
+On recommande en général d’utiliser l’une des deux première solutions. Les deux dernières font que si le premier bloc est identique dans deux messages différent il sera codé de la même manière ce qui nuit à la sécurité du code.
 
 Le déchiffrement nécessite de connaître la fonction inverse de la fonction de codage $D_k = E^{−1}_k$ pour décrypter
 
