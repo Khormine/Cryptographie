@@ -1,0 +1,5 @@
+# 1.2 Principes de Kerckhoffs:
+
+En 1883 dans un article paru dans le Journal des sciences militaires, Auguste Kerckhoffs (1835-1903) posa les principes de la cryptographie moderne. Ces principes et en particulier le second stipulent entre autre que la sécurité d’un cryptosystème ne doit pas reposer sur le secret de l’algorithme de codage mais qu’elle doit uniquement reposer sur la clef secrète du cryptosystème qui est un paramètre facile à changer, de taille réduite (actuellement de 64 à 2048 bits suivant le type de code et la sécurité demandée) et donc assez facile à transmettre secrètement:
+- Un cryptosystème sera d’autant plus résistant et sˆur qu’il aura été con¸cu, choisi et implémenté avec la plus grande transparence et soumis ainsi à l’analyse de l’ensemble de la communauté cryptographique.
+- Si un algorithme est supposé ˆetre secret, il se trouvera toujours quelqu’un soit pour vendre l’algorithme, soit pour le percer à jour, soit pour en découvrir une faiblesse ignorée de ses concepteurs. A ce moment là c’est tout le cryptosystème qui est à changer et pas seulement la clé.
