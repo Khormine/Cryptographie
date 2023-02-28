@@ -13,9 +13,11 @@ La cryptologie fait partie d’un ensemble de théories et de techniques liées 
 Un expéditeur Alice veut envoyer un message à un destinataire Bob en évitant les oreilles indiscrète d’Eve, et les attaques malveillantes de Martin. Pour cela Alice se met d’accord avec Bob sur le cryptosystème qu’ils vont utiliser.
 
 L’information qu’Alice souhaite transmettre à Bob est le texte clair. Le processus de transformation d’un message, M, pour qu’il devienne incompréhensible à Eve est appelé le chiffrement ou la codage. On génère ainsi un message chiffré, C, obtenu grˆace à une fonction de chiffrement, $E$, par 
+
 $$C = E(M)$$
 
 Le processus de reconstruction du message clair à partir du message chiffré est appelé le déchiffrement ou décodage et utilise une fonction de déchiffrement, $D$. On demande que pour tout message clair $M$
+
 $$ D(C) = D(E(M)) = M$$
 
 Un algorithme cryptographique est l’ensemble des fonctions (mathématiques ou non) utilisées pour le chiffrement et le déchiffrement. En pratique les
