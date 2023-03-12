@@ -4,7 +4,7 @@ Un problème important rencontré dans l’utilisation d’un cryptosystème est
 
 Rappelons que dans un cryptosystème à clef secrète lorsque deux interlocuteurs veulent converser il leur faut échanger une clef. Il faut donc autant de clefs qu’il y a de paires non ordonnées d’interlocuteurs. Le nombre de clefs à échanger entre $n$ interlocuteurs est donné par:
 
-<!-- TODO IMG -->
+<center><img src='../img/4/1.PNG'></center>
 
 Par contre dans un système à clef publique il faut autant de paires de clefs qu’il y a d’interlocuteurs. Chaque interlocuteur dispose en effet d’une clef publique qui figure dans un annuaire et que n’importe qui peut utiliser pour crypter les messages qui lui sont adressés et d’une clef privée, strictement personnelle, pour décrypter les messages qu’il re¸coit.
 
